@@ -6,15 +6,13 @@
 
 class Solution {
 
-    void printTriangle(int n) {
-        char c;
-        for(int i=n; i>=1; i--)
+    void printSquare(int n) {
+        // code here
+        for(int i=0; i<n; i++)
         {
-            c='A';
-            for(int j=1; j>=i; j++)
+            for(int j=0; j<n; j++)
             {
-                System.out.print(c);
-                c++;
+                System.out.print("* ");
             }
             System.out.println();
         }
